@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/2902699114_4145752113_223132457.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_329969645_4079691878.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_854843853_903989493.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_3238526461_1862980571.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_1076466279_1921155988.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_4007231086_1256728955.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_597643196_3265660449.mp4'
+file 'file:C:/Users/rodri/PiSolutions/Animations/media/videos/scene/1080p60/partial_movie_files/AnimatedSquareToCircle/3931933789_125286499_198785247.mp4'

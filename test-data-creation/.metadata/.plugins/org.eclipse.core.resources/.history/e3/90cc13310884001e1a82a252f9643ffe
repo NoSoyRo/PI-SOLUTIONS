@@ -1,0 +1,14 @@
+package concretebuilders;
+
+import builders.EntityBuilder;
+import models.Entity;
+
+public class ConcretreEntityBuilder implements EntityBuilder {
+
+	@Override
+	public Entity buildEntityFromFile(String uri) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

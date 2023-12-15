@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\rodri\PiSolutions\api-sellpoint\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4058448694.index

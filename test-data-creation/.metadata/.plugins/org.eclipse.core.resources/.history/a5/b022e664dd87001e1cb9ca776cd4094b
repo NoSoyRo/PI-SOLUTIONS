@@ -1,0 +1,74 @@
+package concretebuilders;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import builders.DataSetBuilder;
+import models.DataSetConfig;
+import models.Entity;
+import models.Field;
+
+public class ConcreteDataSetBuilder implements DataSetBuilder{
+	
+	public Map<Integer, Entity> buildDataSetWithRepetitions(DataSetConfig dataSetConfig, Entity entity) {
+		Integer numberOfFields = entity.listOfFields.size();
+		Map<Integer, Entity> table = new HashMap<Integer, Entity>();
+		table.put(0, entity);
+		//TO-DO: Create new method that builds the vec \in {0,...,numRecs} x R^nFields with the chosen indexes
+		//TO-DO: Create new method that builds the names with the elections of the last TO-DO.
+		//TO-DO: Return Map
+		return null;
+	}
+
+	public Map<Integer, Entity> addNoiseToDataSetWithRepetitions(DataSetConfig dataSetConfig) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public ConcreteDataSetBuilder() {
+		
+	}
+	
+	public Integer[][] generateIndexes(Map<Integer, Entity> table){
+		List<Field> nFields = table.get(0).listOfFields;
+		for (Field f : nFields) {
+			if (f.getType() == "nombre") {
+				obtainNumberOfLinesInCatalog("C:\\Users\\rodri\\PiSolutions\\test-data-creation\\data\\nombres\\concatnames.csv");
+			}
+		}
+		
+	}
+	
+	public Integer obtainNumberOfLinesInCatalog(String uri) {
+		try {
+			FileReader fileReader = new FileReader(uri);
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			int contador = 0;
+			try {
+				while (bufferedReader.readLine() != null) {
+					contador++;
+				}
+				return(contador)
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return null;
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null
+		
+		
+	}
+	
+}

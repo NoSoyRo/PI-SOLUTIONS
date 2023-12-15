@@ -1,0 +1,26 @@
+package models;
+
+import java.util.List;
+
+public class Entity {
+	public Integer numberOfFields;
+	public List<Field> listOfFields;
+	public Integer getNumberOfFields() {
+		return numberOfFields;
+	}
+	public void setNumberOfFields(Integer numberOfFields) {
+		this.numberOfFields = numberOfFields;
+	}
+	public List<Field> getListOfFields() {
+		return listOfFields;
+	}
+	public void setListOfFields(List<Field> listOfFields) {
+		this.listOfFields = listOfFields;
+	}
+	public Entity(Integer numberOfFields, List<Field> listOfFields) {
+		this.numberOfFields = numberOfFields;
+		this.listOfFields = listOfFields;
+	}
+	public Entity() {
+	}
+}

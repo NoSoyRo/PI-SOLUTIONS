@@ -1,0 +1,25 @@
+package models;
+
+public class Entity {
+	public String numberOfFields;
+	public Iterable<Field> listOfFields;
+	public String getNumberOfFields() {
+		return numberOfFields;
+	}
+	public void setNumberOfFields(String numberOfFields) {
+		this.numberOfFields = numberOfFields;
+	}
+	public Iterable<Field> getListOfFields() {
+		return listOfFields;
+	}
+	public void setListOfFields(Iterable<Field> listOfFields) {
+		this.listOfFields = listOfFields;
+	}
+	public Entity(String numberOfFields, Iterable<Field> listOfFields) {
+		this.numberOfFields = numberOfFields;
+		this.listOfFields = listOfFields;
+	}
+	public Entity() {
+		super();
+	}
+}

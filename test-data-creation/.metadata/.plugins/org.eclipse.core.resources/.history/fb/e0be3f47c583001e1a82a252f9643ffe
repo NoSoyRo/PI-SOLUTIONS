@@ -1,0 +1,23 @@
+package concretebuilders;
+
+import java.util.Map;
+
+import builders.DataSetBuilder;
+import models.DataSetConfig;
+import models.Entity;
+
+public class ConcreteDataSetBuilder implements DataSetBuilder{
+
+	@Override
+	public Map<Integer, Entity> buildDataSetWithRepetitions(DataSetConfig dataSetConfig, Entity entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Map<Integer, Entity> addNoiseToDataSetWithRepetitions(DataSetConfig dataSetConfig) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

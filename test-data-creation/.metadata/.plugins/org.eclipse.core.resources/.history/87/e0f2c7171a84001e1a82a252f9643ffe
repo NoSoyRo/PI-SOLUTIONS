@@ -1,0 +1,37 @@
+package concretebuilders;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Map;
+import java.util.Properties;
+
+import builders.DataSetBuilder;
+import models.DataSetConfig;
+import models.Entity;
+
+public class ConcreteDataSetBuilder implements DataSetBuilder{
+	private InputStream configFile;
+	private Properties properties;
+	private Integer numberOfRecords;
+	private String typeOfRepetition;
+	private String typeOfNoise;
+	private DataSetConfig dataSetConfig;
+	@Override
+	public Map<Integer, Entity> buildDataSetWithRepetitions(DataSetConfig dataSetConfig, Entity entity) {
+		//TO-DO
+		return null;
+	}
+
+	@Override
+	public Map<Integer, Entity> addNoiseToDataSetWithRepetitions(DataSetConfig dataSetConfig) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public ConcreteDataSetBuilder() {
+		
+	}
+	
+}
